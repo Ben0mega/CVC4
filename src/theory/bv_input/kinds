@@ -1,0 +1,21 @@
+# kinds                                                               -*- sh -*-
+#
+# For documentation on this file format, please refer to
+# src/theory/builtin/kinds.
+#
+
+theory THEORY_BV_INPUT ::CVC4::theory::bv_input::TheoryBvInput "theory/bv_input/theory_bv_input.h"
+typechecker "theory/bv_input/theory_bv_input_type_rules.h"
+rewriter ::CVC4::theory::bv_input::TheoryBvInputRewriter "theory/bv_input/theory_bv_input_rewriter.h"
+
+properties check
+
+# Theory content goes here.
+
+# constants...
+
+# types...
+
+# operators...
+
+endtheory
